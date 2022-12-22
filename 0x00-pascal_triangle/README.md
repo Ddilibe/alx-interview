@@ -16,7 +16,7 @@ Create a function def pascal_triangle(n): that returns a list of lists of intege
 - You can assume n will be always an integer
 
 ### Test
-*Main Test Function*
+**Main Test Function**
 
 ```
 #!/usr/bin/python3
