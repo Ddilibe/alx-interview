@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/bin/python
 
 """ 
 	Script that demonstrates the pascal's triangle
