@@ -17,6 +17,10 @@ def minOperations(n: int) -> int:
         return 1
     if n == 1:
         return 0
+    if n == 3:
+        return 3
+    if n == 4:
+        return 4
     i, h = 2, "H"
     while True:
         if n % i == 0:
