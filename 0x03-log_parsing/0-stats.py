@@ -3,10 +3,16 @@
 
 import re
 import sys
-counter = 0
-file_size = 0
-statusC_counter = {200: 0, 301: 0, 400: 0,
-                   401: 0, 403: 0, 404: 0, 405: 0, 500: 0}
+counter, file_size, statusC_counter = 0, 0, {
+    200: 0,
+    301: 0,
+    400: 0,
+    401: 0,
+    403: 0,
+    404: 0,
+    405: 0,
+    500: 0
+}
 
 
 def printCodes(dict, file_s):
