@@ -42,5 +42,7 @@ if __name__ == "__main__":
                 pass
         printCodes(statusC_counter, file_size)
     except KeyboardInterrupt:
+        # printCodes(statusC_counter, file_size)
+        pass
+    finally:
         printCodes(statusC_counter, file_size)
-        raise
