@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """ Script that rotates a matrix at 90 degrees clockwise """
-from typing import List
 
 
-def rotate_2d_matrix(matrix: List[List[int]]) -> None:
+def rotate_2d_matrix(matrix) -> None:
     """
         Function for rotating a matrix 90 degress clockwise
         Args:
