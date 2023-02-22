@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """ Script that addresses a challenge """
-from typing import List
 
 
-def makeChange(coins: List[int], total: int) -> int:
+def makeChange(coins, total):
     """
         Function that deteermines the fewest number of coins needed
         ro meet a given a total amount
